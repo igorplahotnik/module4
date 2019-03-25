@@ -128,17 +128,18 @@ ul {
     font-family: Roboto;
     font-weight: 700;
     font-size: 40px;
-    margin: 50px 0 0 360px;
+    margin: 50px 0 0 0;
+    text-align: center;
     color: #515151;
 }
 
 .product::after {
     content: "";
-    width: 164px;
+    width: 169px;
     height: 7px;
     display: block;
     background-color: #1abc9c;
-    margin: 30px 120px;
+    margin: 30px auto;
 }
 
 .price,
@@ -173,7 +174,7 @@ ul {
     height: 7px;
     display: block;
     background-color: #1abc9c;
-    margin: 30px 490px;
+    margin: 30px auto;
 }
 
 .lnews1 {
